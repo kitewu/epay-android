@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "com.xbw.unman"
+        minSdkVersion 19
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        ndk {
+            abiFilters "armeabi"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile files('libs/core-3.1.1-SNAPSHOT.jar')
+    compile files('libs/AMap3DMap_3.3.1_AMapNavi_1.8.0_20160420.jar')
+    compile files('libs/Msc.jar')
+    compile files('libs/alipaySingle-20170510.jar')
+    compile files('libs/alipaySdk-20160812.jar')
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+}

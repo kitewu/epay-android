@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_near"
+            android:icon="@drawable/ic_pin_drop_black_24dp"
+            android:title="附近" />
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/ic_crop_free_black_24dp"
+            android:title="扫一扫" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_local_mall_black_24dp"
+            android:title="购买记录" />
+        <item
+            android:id="@+id/nav_active"
+            android:icon="@drawable/ic_redeem_black_24dp"
+            android:title="积分活动" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_local_atm_black_24dp"
+            android:title="账户" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="关于" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_quit"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="注销登录" />
+        </menu>
+    </item>
+
+</menu>
