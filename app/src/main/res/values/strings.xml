@@ -1,0 +1,36 @@
+<resources>
+    <string name="logo">E-pay</string>
+    <string name="app_name">E-pay</string>
+    <string name="button_login">Login</string>
+    <string name="button_signup">Sign Up</string>
+    <string name="button_confirm_login">Confirm Login</string>
+    <string name="button_cancel_login">Cancel Login</string>
+    <string name="button_confirm_signup">Confirm Sign Up</string>
+    <string name="button_cancel_signup">Cancel Sign Up</string>
+    <string name="edit_username">username</string>
+    <string name="edit_password">password</string>
+    <string name="login_forget_password">忘记密码</string>
+    <string name="login_go_sign_up">还没有账号，去注册</string>
+    <string name="button_register">Sign Up</string>
+    <string name="button_alter">Alter</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="top_hint">将条形码或二维码置于取景框内系统会自动扫描</string>
+    <string name="bottom_hint">建议与镜头保持10CM距离，尽量避免逆光和阴影</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+    <string name="button_ok">确定</string>
+
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="bottom_daohang">开始导航</string>
+
+    <string name="loading_video">Loading video…</string>
+
+</resources>

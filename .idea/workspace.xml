@@ -6,9 +6,359 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d52e1b8-2349-4a91-bef8-fed4d01774df" name="Default" comment="" />
+    <list default="true" id="1d52e1b8-2349-4a91-bef8-fed4d01774df" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UnmannedStore/app.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/libs/AMap3DMap_3.3.1_AMapNavi_1.8.0_20160420.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/libs/AMap_Location_V2.4.1_20160414.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/libs/AMap_Search_V3.2.1_20160308.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/libs/Msc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/libs/alipaySdk-20160812.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/libs/core-3.1.1-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/androidTest/java/com/xbw/unman/ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/bp.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/call.bnf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/city.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/grammar_sample.abnf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/iattest.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/iflytek/recognize.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/iflytek/voice_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/iflytek/voice_empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/iflytek/voice_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/iflytek/waiting.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/iflytek/warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/keys" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/userwords" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/css/AdminLTE.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/css/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/css/flat-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/css/jumbotron-narrow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/css/skins/_all-skins.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/css/sticky-footer-navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/img/banner1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/img/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/img/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/img/csdn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/img/logocsdn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/img/qq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/js/app.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/js/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/js/ie-emulation-modes-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/js/ie10-viewport-bug-workaround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/js/jQuery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/js/jquery.qrcode.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/js/swiper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/css/materialize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/material-design-icons/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/material-design-icons/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/material-design-icons/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/material-design-icons/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/material-design-icons/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/material-design-icons/Material-Design-Icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Bold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Light.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Medium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Thin.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/font/roboto/Roboto-Thin.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/js/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/materialize/js/materialize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/plugins/fastclick/fastclick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/asset/plugins/slimScroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/images/404.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/indexs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/styles/lanrenzhijia.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/assets/wechat/styles/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/poisearch/AMapUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/poisearch/ChString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/poisearch/NoScrollGridView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/poisearch/PoiAroundSearchActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/poisearch/ToastUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/route/BusResultListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/route/BusRouteDetailActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/route/BusSegmentListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/route/DriveRouteDetailActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/route/DriveSegmentListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/route/RouteActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/route/SchemeBusStep.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/route/WalkRouteDetailActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/amap/map3d/demo/route/WalkSegmentListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/example/imgload/BaseViewHolder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/example/imgload/FileCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/example/imgload/ImageLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/example/imgload/MemoryCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/example/imgload/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/FinalResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/ReadSentenceResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/ReadSyllableResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/ReadWordResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/Result.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/entity/Phone.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/entity/Sentence.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/entity/Syll.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/entity/Word.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/util/ResultFormatUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/util/ResultTranslateUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/ise/result/xml/XmlResultParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/speech/util/JsonParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/speech/util/SettingTextWatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/iflytek/speech/util/XmlParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/SaoYiSao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/AmbientLightManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/BeepManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/Config.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/FinishListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/InactivityTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/IntentSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/Intents.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/camera/AutoFocusManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/camera/CameraConfigurationManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/camera/CameraManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/camera/FrontLightMode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/camera/OpenCameraInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/camera/PreviewCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/common/BitmapUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/common/Runnable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/decode/BitmapDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/decode/BitmapLuminanceSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/decode/CaptureActivityHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/decode/DecodeFormatManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/decode/DecodeHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/decode/DecodeThread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/view/ViewfinderResultPointCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/scancode/scanner/view/ViewfinderView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/ForgetpwdActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/GPSNaviActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/LoginActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/PayActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/PsucActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/RegisterActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/SplashActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/Utils/Config.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/Utils/MyVideoView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/Utils/SharedPreference.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/Utils/TTSController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/adapter/ListGoodsAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/model/GoodsModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/pay/AuthResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/pay/Base64.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/pay/PayResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/pay/SignUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/unman/pay/util/OrderInfoUtil2_0.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/webview/VideoEnabledWebChromeClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/webview/VideoEnabledWebView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/java/com/xbw/webview/WebActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/jniLibs/armeabi/libgdinamapv4sdk752.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/jniLibs/armeabi/libgdinamapv4sdk752ex.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/jniLibs/armeabi/libmsc.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/jniLibs/armeabi/libtbt.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/jniLibs/armeabi/libtbt3631.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/jniLibs/armeabi/libwtbt144.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/anim/translate_y.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/anim/translate_y_reverse.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/color/button_text.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-v21/ic_menu_camera.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-v21/ic_menu_gallery.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-v21/ic_menu_manage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-v21/ic_menu_send.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-v21/ic_menu_share.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-v21/ic_menu_slideshow.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/arrow_right_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/bg_bottom_bar.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/border_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/card_avatar_bar.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/csy_arr_drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/csy_arr_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/csy_ico_help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir_end.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir_start.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/dir_station.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/end.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/icon_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/jiayou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/land_button_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/land_button_press.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/loading2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/login_pwd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/login_user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/marker_other_highlight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/mm_title_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/navi_along_search_parking_big_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/offlinearrow_tab2_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/page_indicator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/page_indicator_focused.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/poi_marker_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/poi_marker_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/poi_marker_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/poi_marker_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/poi_marker_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/poi_marker_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/poi_marker_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/poi_marker_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/poi_marker_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/poi_marker_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/poi_marker_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/point4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/ra.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/rb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/rc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/rd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/re.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/route_bus_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/route_bus_select.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/route_drive_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/route_drive_select.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/route_walk_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/route_walk_select.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_corner_bottom_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_corner_bottom_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_corner_top_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_corner_top_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_fail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_flashlight_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_flashlight_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_history_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_history_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_laser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_photo_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/scan_photo_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/search_clear_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/search_input.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/search_input_half.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/shadow_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/shadow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/shadow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/slidetab_bg_press.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/start.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/tips_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/tips_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/tips_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/title_background.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable-xhdpi/up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/defaults.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/ic_crop_free_black_24dp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/ic_info_outline_black_24dp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/ic_local_atm_black_24dp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/ic_local_mall_black_24dp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/ic_pin_drop_black_24dp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/ic_power_settings_new_black_24dp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/ic_redeem_black_24dp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/land_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/login_pwd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/login_user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/password_gone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/password_visible.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/progress_bar_states.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/scan_flashlight.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/scan_history.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/scan_photo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/drawable/side_nav_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/activity_basic_navi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/activity_forget.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/activity_login.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/activity_pay.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/activity_psuc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/activity_register.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/activity_route_detail.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/activity_saoyisao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/activity_splash.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/activity_web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/app_bar_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/content_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/item_bus_result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/item_bus_segment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/item_bus_segment_ex.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/item_list_goods.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/nav_header_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/poiaroundsearch_activity.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/route_activity.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/layout/view_loading_video.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/menu/activity_main_drawer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/menu/main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/raw/beep.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/raw/welcome_video.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/values-v21/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/values/drawables.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/values/ids.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ap/src/test/java/com/xbw/unman/ExampleUnitTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/transition_25_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+    </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/app/.gradle/" />
+    <ignored path="$PROJECT_DIR$/app/build/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +387,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -1358,6 +1711,7 @@
       <map>
         <entry key="C:\Users\WSL\Desktop\UnmannedStore-Android" value="4487028030000" />
         <entry key="C:\Users\WSL\Desktop\app" value="4487028030000" />
+        <entry key="C:\Users\WSL\Documents\第三届互联网+\UnmannedStore-Android" value="2991216832000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1696,11 +2050,35 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_basic_navi.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_forget.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pay.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_route_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/PsucActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/RegisterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/ForgetpwdActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/GPSNaviActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/PayActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/Utils/Config.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1727,6 +2105,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1745,19 +2126,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnmannedStore-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnmannedStore-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnmannedStore-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnmannedStore-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnmannedStore-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnmannedStore-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnmannedStore-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnmannedStore-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="58e1d02a" />
+    <property name="android.project.structure.last.selected" value="Project" />
+    <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2046,7 +2510,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -2135,36 +2599,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.408547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4811644" sideWeight="0.49394855" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40582192" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18759455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27314112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2183,25 +2648,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UnmannedStore/src/main/java/com/xbw/unman/PayActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/Utils/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/Utils/MyVideoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/Utils/SharedPreference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/Utils/TTSController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/PayActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnmannedStore/src/main/java/com/xbw/unman/PayActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/PayActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnmannedStore/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2212,10 +2704,388 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnmannedStore/src/main/java/com/xbw/unman/PayActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/Utils/MyVideoView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2261">
-          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/Utils/SharedPreference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/Utils/TTSController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_basic_navi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_forget.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-909">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#606#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-1748">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#606#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pay.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_psuc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1175">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#601#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_route_detail.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_loading_video.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/route_activity.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/poiaroundsearch_activity.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#1024#1038#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_list_goods.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_bus_segment_ex.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_bus_segment.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_bus_result.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_web.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="e#870#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_saoyisao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/PsucActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-508">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1135">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/ForgetpwdActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1271">
+          <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/GPSNaviActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1995">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-831">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/PayActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693">
+          <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+          <folding>
+            <element signature="e#2879#3048#0" expanded="true" />
+            <element signature="e#3047#3048#0" expanded="true" />
+            <element signature="e#6771#9314#0" expanded="true" />
+            <element signature="e#9313#9314#0" expanded="true" />
+            <element signature="e#9890#10101#0" expanded="true" />
+            <element signature="e#10100#10101#0" expanded="true" />
+            <element signature="e#13267#13759#0" expanded="true" />
+            <element signature="e#13758#13759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xbw/unmanned/Utils/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
