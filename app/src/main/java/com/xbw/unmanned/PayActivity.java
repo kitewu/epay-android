@@ -89,17 +89,17 @@ public class PayActivity extends AppCompatActivity {
     }
 
     private void initList() {
-        GoodsModel model = new GoodsModel();
-        model.setGoodsName("黑人牙膏");
-        model.setGoodsPrice(9.99f);
-        model.setGoodsImg("http://img.ecfun.cc/QQ20170525-011647@2x.png");
-        Config.listGoods.add(model);
-
-        GoodsModel model1 = new GoodsModel();
-        model1.setGoodsName("怡宝矿泉水");
-        model1.setGoodsPrice(2.00f);
-        model1.setGoodsImg("http://img.ecfun.cc/QQ20170525-011728@2x.png");
-        Config.listGoods.add(model1);
+//        GoodsModel model = new GoodsModel();
+//        model.setGoodsName("黑人牙膏");
+//        model.setGoodsPrice(9.99f);
+//        model.setGoodsImg("http://img.ecfun.cc/QQ20170525-011647@2x.png");
+//        Config.listGoods.add(model);
+//
+//        GoodsModel model1 = new GoodsModel();
+//        model1.setGoodsName("怡宝矿泉水");
+//        model1.setGoodsPrice(2.00f);
+//        model1.setGoodsImg("http://img.ecfun.cc/QQ20170525-011728@2x.png");
+//        Config.listGoods.add(model1);
         mAdapter = new ListGoodsAdapter(this,
                 Config.listGoods);
         lis1.setAdapter(mAdapter);
