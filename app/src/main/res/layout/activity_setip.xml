@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#373447">
+
+    <com.xbw.unmanned.Utils.MyVideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/logo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="64dp" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView">
+
+
+        <LinearLayout
+            android:id="@+id/accountLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/interip"
+                android:layout_width="208dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:gravity="center"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:text="192.168.43.69"
+                android:textColor="#CEC9E7"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="240dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/accountLayout"
+            android:layout_centerHorizontal="true"
+            android:background="#CEC9E7" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="240dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/line1"
+            android:layout_centerHorizontal="true"
+            android:background="#CEC9E7" />
+
+        <Button
+            android:id="@+id/btn_interip_ok"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:padding="10dp"
+            android:text="@string/button_alter"
+            android:textColor="#CEC9E7"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/textView"-->
+        <!--android:layout_marginTop="130dp">-->
+
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/accountLayout1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="35dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/interip1"-->
+                <!--android:layout_width="208dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:background="@null"-->
+                <!--android:gravity="center"-->
+                <!--android:padding="10dp"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="192.168.1.104"-->
+                <!--android:textColor="#CEC9E7"-->
+                <!--android:textSize="16sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<View-->
+            <!--android:id="@+id/line11"-->
+            <!--android:layout_width="240dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_below="@id/accountLayout1"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:background="#CEC9E7" />-->
+
+        <!--<View-->
+            <!--android:id="@+id/line22"-->
+            <!--android:layout_width="240dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_below="@id/line11"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:background="#CEC9E7" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_interip_ok1"-->
+            <!--android:layout_width="240dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/line22"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:background="@drawable/button"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="@string/button_alter"-->
+            <!--android:textColor="#CEC9E7"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textStyle="bold" />-->
+
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>

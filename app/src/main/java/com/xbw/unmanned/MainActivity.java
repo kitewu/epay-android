@@ -152,12 +152,13 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_shop) {//购买记录
             Intent mIntent = new Intent();
             mIntent.setClass(MainActivity.this, WebActivity.class);
-            mIntent.putExtra("url", Config.EXTRA_COMMON_URL + "/historyformobile");
+            mIntent.putExtra("url", "http://" + Config.EXTRANETIP + ":8080/historyformobile");
             startActivity(mIntent);
         } else if (id == R.id.nav_shop_car) {//购物车
             Intent mIntent = new Intent();
             mIntent.setClass(MainActivity.this, WebActivity.class);
-            mIntent.putExtra("url", Config.INTRA_COMMON_URL + "/epay/index.html");
+           // Toast.makeText(MainActivity.this, "http://" + Config.INTRANETIP + ":80/epay/index.html", Toast.LENGTH_LONG).show();
+            mIntent.putExtra("url", "http://" + Config.INTRANETIP + ":80/epay/index.html");
             startActivity(mIntent);
         } else if (id == R.id.nav_active) {//积分活动
             Intent mIntent = new Intent();
@@ -173,6 +174,10 @@ public class MainActivity extends AppCompatActivity
             mIntent.setClass(this, LoginActivity.class);
             startActivity(mIntent);
             finish();
+        } else if (id == R.id.nav_setip) {//设置ip
+            Intent mIntent = new Intent();
+            mIntent.setClass(MainActivity.this, SetIPActivity.class);
+            startActivity(mIntent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

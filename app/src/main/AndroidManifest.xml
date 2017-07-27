@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xbw.unmanned">
+
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -36,10 +37,11 @@
         <activity android:name="com.xbw.unmanned.LoginActivity"></activity>
         <activity android:name="com.xbw.unmanned.RegisterActivity"></activity>
         <activity android:name="com.xbw.unmanned.ForgetpwdActivity"></activity>
-        <activity android:name="com.xbw.webview.WebActivity"
+        <activity android:name="com.xbw.unmanned.SetIPActivity"></activity>
+        <activity
+            android:name="com.xbw.webview.WebActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Transparent" >
-        </activity>
+            android:theme="@style/Transparent"></activity>
         <activity
             android:name="com.xbw.unmanned.PayActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
@@ -50,8 +52,7 @@
             android:name="com.xbw.scancode.SaoYiSao"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
-        </activity>
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"></activity>
         <activity
             android:name="com.xbw.unmanned.GPSNaviActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -94,14 +95,12 @@
             android:name="com.alipay.sdk.app.H5PayActivity"
             android:configChanges="orientation|keyboardHidden|navigation"
             android:exported="false"
-            android:screenOrientation="behind" >
-        </activity>
+            android:screenOrientation="behind"></activity>
         <activity
             android:name="com.alipay.sdk.auth.AuthActivity"
             android:configChanges="orientation|keyboardHidden|navigation"
             android:exported="false"
-            android:screenOrientation="behind" >
-        </activity>
+            android:screenOrientation="behind"></activity>
     </application>
 
 </manifest>
