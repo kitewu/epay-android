@@ -21,7 +21,6 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.alipay.sdk.app.PayTask;
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
 import com.android.volley.ParseError;
@@ -34,10 +33,8 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.xbw.unmanned.Utils.Config;
 import com.xbw.unmanned.adapter.ListGoodsAdapter;
-import com.xbw.unmanned.model.GoodsModel;
 import com.xbw.unmanned.pay.AuthResult;
 import com.xbw.unmanned.pay.PayResult;
-import com.xbw.unmanned.pay.util.OrderInfoUtil2_0;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -51,9 +48,10 @@ import java.util.Map;
  */
 public class PayActivity extends AppCompatActivity {
     private ListView lis1;
-    private ListGoodsAdapter mAdapter;
+    private Dialog dialog;
     private Button btn_pay;
     private Button btn_cancel;
+    private ListGoodsAdapter mAdapter;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,9 +63,6 @@ public class PayActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             getWindow().setStatusBarColor(getResources().getColor(R.color.colorPrimaryDark));
-
-            //底部导航栏
-            //window.setNavigationBarColor(activity.getResources().getColor(colorResId));
         }
         lis1 = (ListView) findViewById(R.id.listview_goods);
         btn_pay = (Button) findViewById(R.id.button);
@@ -75,51 +70,52 @@ public class PayActivity extends AppCompatActivity {
         btn_cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showAlertDialog();
+                showCancleAlertDialog();
             }
         });
         btn_pay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //payV2(v);
-                payV3();
+                Toast.makeText(PayActivity.this, "支付成功", Toast.LENGTH_SHORT).show();
+                sendMsgToServerBySocket("1");
+                Intent mIntent = new Intent();
+                mIntent.setClass(PayActivity.this, PsucActivity.class);
+                startActivity(mIntent);
+                finish();
             }
         });
         initList();
     }
 
+    /**
+     * 初始化列表
+     */
     private void initList() {
-//        GoodsModel model = new GoodsModel();
-//        model.setGoodsName("黑人牙膏");
-//        model.setGoodsPrice(9.99f);
-//        model.setGoodsImg("http://img.ecfun.cc/QQ20170525-011647@2x.png");
-//        Config.listGoods.add(model);
-//
-//        GoodsModel model1 = new GoodsModel();
-//        model1.setGoodsName("怡宝矿泉水");
-//        model1.setGoodsPrice(2.00f);
-//        model1.setGoodsImg("http://img.ecfun.cc/QQ20170525-011728@2x.png");
-//        Config.listGoods.add(model1);
-        mAdapter = new ListGoodsAdapter(this,
-                Config.listGoods);
+        mAdapter = new ListGoodsAdapter(this, Config.listGoods);
         lis1.setAdapter(mAdapter);
     }
 
-    // 按两次返回退出
+    /**
+     * 按两次返回退出
+     *
+     * @param keyCode
+     * @param event
+     * @return
+     */
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK
                 && event.getAction() == KeyEvent.ACTION_DOWN) {
-            showAlertDialog();
+            showCancleAlertDialog();
             return true;
         }
         return super.onKeyDown(keyCode, event);
     }
 
-    private Dialog dialog;
-
-    private void showAlertDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(
-                PayActivity.this);
+    /**
+     * 处理取消付款
+     */
+    private void showCancleAlertDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(PayActivity.this);
         builder.setTitle("提示");
         builder.setMessage("是否取消订单");
         builder.setIcon(R.mipmap.ic_launcher);
@@ -132,7 +128,7 @@ public class PayActivity extends AppCompatActivity {
         builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Post("0");
+                sendMsgToServerBySocket("0");//取消支付
                 finish();
                 dialog.dismiss();
             }
@@ -143,6 +139,79 @@ public class PayActivity extends AppCompatActivity {
         dialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ERROR);
         dialog.show();
     }
+
+    /**
+     * socket发送消息到服务器
+     *
+     * @param content
+     * @return
+     */
+    public boolean sendMsgToServerBySocket(final String content) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Socket socket = new Socket(Config.INTRA_COMMON_URL, Config.PORT);
+                    OutputStream out = socket.getOutputStream();
+                    out.write(content.getBytes(), 0, content.length());
+                    out.flush();
+                    out.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+        return true;
+    }
+
+    /**
+     * post方式向服务器发送信息
+     *
+     * @param msg
+     */
+    private void Post(final String msg) {
+        RequestQueue mQueue = Volley.newRequestQueue(this);
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, Config.INTRA_COMMON_URL + "Config.API", new Response.Listener<String>() {
+            @Override
+            public void onResponse(String s) {
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError volleyError) {
+            }
+        }) {
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String, String> map = new HashMap<String, String>();
+                map.put("value", msg);
+                return map;
+            }
+
+            @Override
+            public Map<String, String> getHeaders() {
+                HashMap<String, String> headers = new HashMap<String, String>();
+                //headers.put("Accept", "application/vnd.api+json");
+                //headers.put("Content-Type", "application/json; charset=UTF-8");
+                return headers;
+            }
+
+            @Override
+            protected Response<String> parseNetworkResponse(NetworkResponse response) {
+                try {
+                    Log.d("stauscode", response.statusCode + "");
+
+                    String dataString = new String(response.data, "UTF-8");
+                    Toast.makeText(PayActivity.this, dataString, Toast.LENGTH_LONG).show();
+                    return Response.success(dataString, HttpHeaderParser.parseCacheHeaders(response));
+                } catch (UnsupportedEncodingException e) {
+                    Toast.makeText(PayActivity.this, "未知错误", Toast.LENGTH_LONG).show();
+                    return Response.error(new ParseError(e));
+                }
+            }
+        };
+        mQueue.add(stringRequest);
+    }
+
 
     /**
      * 支付宝支付业务：入参app_id
@@ -237,126 +306,50 @@ public class PayActivity extends AppCompatActivity {
         ;
     };
 
-    /**
-     * 支付
-     */
-    public void payV3() {
-        Toast.makeText(PayActivity.this, "支付成功", Toast.LENGTH_SHORT).show();
-        sendMsgToServerBySocket("1");
-        Intent mIntent = new Intent();
-        mIntent.setClass(PayActivity.this, PsucActivity.class);
-        startActivity(mIntent);
-        finish();
-    }
 
-    public void payV2(View v) {
-        if (TextUtils.isEmpty(APPID) || TextUtils.isEmpty(RSA_PRIVATE)) {
-            new AlertDialog.Builder(this).setTitle("警告").setMessage("需要配置APPID | RSA_PRIVATE")
-                    .setPositiveButton("确定", new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialoginterface, int i) {
-                            finish();
-                        }
-                    }).show();
-            return;
-        }
-
-        /**
-         * 这里只是为了方便直接向商户展示支付宝的整个支付流程；所以Demo中加签过程直接放在客户端完成；
-         * 真实App里，privateKey等数据严禁放在客户端，加签过程务必要放在服务端完成；
-         * 防止商户私密数据泄露，造成不必要的资金损失，及面临各种安全风险；
-         *
-         * orderInfo的获取必须来自服务端；
-         */
-        Map<String, String> params = OrderInfoUtil2_0.buildOrderParamMap(APPID, true);
-        String orderParam = OrderInfoUtil2_0.buildOrderParam(params);
-        String sign = OrderInfoUtil2_0.getSign(params, RSA_PRIVATE, true);
-        final String orderInfo = orderParam + "&" + sign;
-
-        Runnable payRunnable = new Runnable() {
-
-            @Override
-            public void run() {
-                PayTask alipay = new PayTask(PayActivity.this);
-                Map<String, String> result = alipay.payV2(orderInfo, true);
-                Log.i("msp", result.toString());
-
-                Message msg = new Message();
-                msg.what = SDK_PAY_FLAG;
-                msg.obj = result;
-                mHandler.sendMessage(msg);
-            }
-        };
-        Thread payThread = new Thread(payRunnable);
-        payThread.start();
-    }
-
-    //向服务器发送信息post
-    private void Post(final String msg) {
-        RequestQueue mQueue = Volley.newRequestQueue(this);
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, Config.IP + Config.API, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String s) {
-
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError volleyError) {
-            }
-        }) {
-            @Override
-            protected Map<String, String> getParams() throws AuthFailureError {
-                Map<String, String> map = new HashMap<String, String>();
-                map.put("value", msg);
-                return map;
-            }
-
-            @Override
-            public Map<String, String> getHeaders() {
-                HashMap<String, String> headers = new HashMap<String, String>();
-                //headers.put("Accept", "application/vnd.api+json");
-                //headers.put("Content-Type", "application/json; charset=UTF-8");
-                return headers;
-            }
-
-            @Override
-            protected Response<String> parseNetworkResponse(NetworkResponse response) {
-                try {
-                    Log.d("stauscode", response.statusCode + "");
-
-                    String dataString = new String(response.data, "UTF-8");
-                    Toast.makeText(PayActivity.this, dataString, Toast.LENGTH_LONG).show();
-                    return Response.success(dataString, HttpHeaderParser.parseCacheHeaders(response));
-                } catch (UnsupportedEncodingException e) {
-                    Toast.makeText(PayActivity.this, "未知错误", Toast.LENGTH_LONG).show();
-                    return Response.error(new ParseError(e));
-                }
-            }
-        };
-        mQueue.add(stringRequest);
-    }
-
-    /**
-     * socket发送消息到服务器
-     *
-     * @param content
-     * @return
-     */
-    public boolean sendMsgToServerBySocket(final String content) {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    Socket socket = new Socket(Config.IP, Config.PORT);
-                    OutputStream out = socket.getOutputStream();
-                    out.write(content.getBytes(), 0, content.length());
-                    out.flush();
-                    out.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }).start();
-        return true;
-    }
-
+//    /**
+//     * 支付方式2
+//     *
+//     * @param v
+//     */
+//    public void payV2(View v) {
+//        if (TextUtils.isEmpty(APPID) || TextUtils.isEmpty(RSA_PRIVATE)) {
+//            new AlertDialog.Builder(this).setTitle("警告").setMessage("需要配置APPID | RSA_PRIVATE")
+//                    .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+//                        public void onClick(DialogInterface dialoginterface, int i) {
+//                            finish();
+//                        }
+//                    }).show();
+//            return;
+//        }
+//
+//        /**
+//         * 这里只是为了方便直接向商户展示支付宝的整个支付流程；所以Demo中加签过程直接放在客户端完成；
+//         * 真实App里，privateKey等数据严禁放在客户端，加签过程务必要放在服务端完成；
+//         * 防止商户私密数据泄露，造成不必要的资金损失，及面临各种安全风险；
+//         *
+//         * orderInfo的获取必须来自服务端；
+//         */
+//        Map<String, String> params = OrderInfoUtil2_0.buildOrderParamMap(APPID, true);
+//        String orderParam = OrderInfoUtil2_0.buildOrderParam(params);
+//        String sign = OrderInfoUtil2_0.getSign(params, RSA_PRIVATE, true);
+//        final String orderInfo = orderParam + "&" + sign;
+//
+//        Runnable payRunnable = new Runnable() {
+//
+//            @Override
+//            public void run() {
+//                PayTask alipay = new PayTask(PayActivity.this);
+//                Map<String, String> result = alipay.payV2(orderInfo, true);
+//                Log.i("msp", result.toString());
+//
+//                Message msg = new Message();
+//                msg.what = SDK_PAY_FLAG;
+//                msg.obj = result;
+//                mHandler.sendMessage(msg);
+//            }
+//        };
+//        Thread payThread = new Thread(payRunnable);
+//        payThread.start();
+//    }
 }

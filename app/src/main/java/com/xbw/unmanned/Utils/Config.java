@@ -13,8 +13,15 @@ public class Config {
     public static NaviLatLng start_nav = null;
     public static NaviLatLng end_nav = null;
     public static List<GoodsModel> listGoods = new ArrayList<GoodsModel>();
+    //内网服务器地址
+    public static final String INTRANET = "192.168.1.104";
+    //内网web root地址
+    public static final String INTRA_COMMON_URL = "http://" + INTRANET + ":80";
 
-    public static String API = "";//80681221
+    //公网服务器地址
+    public static final String EXTRANET = "115.159.49.73";
+    //公网web root地址
+    public static final String EXTRA_COMMON_URL = "http://" + EXTRANET + ":8080";
+
     public static final int PORT = 12348;
-    public static final String IP = "192.168.1.105";
 }

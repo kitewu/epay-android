@@ -16,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.amap.map3d.demo.poisearch.PoiAroundSearchActivity;
 import com.xbw.scancode.SaoYiSao;
@@ -119,12 +120,17 @@ public class MainActivity extends AppCompatActivity
     protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);
         if (resultCode == 1001) {
-            String result_value = intent.getStringExtra("describe");
-            if (result_value != null) {
-                Intent mIntent = new Intent();
-                mIntent.setClass(this, PayActivity.class);
-                startActivity(mIntent);
-            }
+//            String result_value = intent.getStringExtra("describe");
+//            if (result_value != null) {
+//                Intent mIntent = new Intent();
+//                mIntent.setClass(this, PayActivity.class);
+//                startActivity(mIntent);
+//            }
+            Toast.makeText(MainActivity.this, "绑定成功", Toast.LENGTH_LONG).show();
+            Intent mIntent = new Intent();
+            mIntent.setClass(MainActivity.this, WebActivity.class);
+            mIntent.putExtra("url", Config.INTRA_COMMON_URL + "/epay/index.html");
+            startActivity(mIntent);
             return;
         }
     }
@@ -143,18 +149,25 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent();
             intent.setClass(MainActivity.this, SaoYiSao.class);
             startActivityForResult(intent, 1001);
-        } else if (id == R.id.nav_shop) {
+        } else if (id == R.id.nav_shop) {//购买记录
             Intent mIntent = new Intent();
             mIntent.setClass(MainActivity.this, WebActivity.class);
-            mIntent.putExtra("url", "http://www.baidu.com");
+            mIntent.putExtra("url", Config.EXTRA_COMMON_URL + "/historyformobile");
             startActivity(mIntent);
-        } else if (id == R.id.nav_active) {
+        } else if (id == R.id.nav_shop_car) {//购物车
+            Intent mIntent = new Intent();
+            mIntent.setClass(MainActivity.this, WebActivity.class);
+            mIntent.putExtra("url", Config.INTRA_COMMON_URL + "/epay/index.html");
+            startActivity(mIntent);
+        } else if (id == R.id.nav_active) {//积分活动
+            Intent mIntent = new Intent();
+            mIntent.setClass(MainActivity.this, PsucActivity.class);
+            startActivity(mIntent);
+        } else if (id == R.id.nav_account) {//账户
 
-        } else if (id == R.id.nav_account) {
+        } else if (id == R.id.nav_about) {//关于
 
-        } else if (id == R.id.nav_about) {
-
-        } else if (id == R.id.nav_quit) {
+        } else if (id == R.id.nav_quit) {//注销
             sharedpreference.DisconnectLogin();
             Intent mIntent = new Intent();
             mIntent.setClass(this, LoginActivity.class);

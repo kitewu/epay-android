@@ -30,11 +30,11 @@ import com.xbw.scancode.scanner.BeepManager;
 import com.xbw.scancode.scanner.FinishListener;
 import com.xbw.scancode.scanner.InactivityTimer;
 import com.xbw.scancode.scanner.IntentSource;
+import com.xbw.scancode.scanner.camera.CameraManager;
 import com.xbw.scancode.scanner.common.BitmapUtils;
 import com.xbw.scancode.scanner.decode.BitmapDecoder;
 import com.xbw.scancode.scanner.decode.CaptureActivityHandler;
 import com.xbw.scancode.scanner.view.ViewfinderView;
-import com.xbw.scancode.scanner.camera.CameraManager;
 import com.xbw.unmanned.R;
 
 import java.io.IOException;
@@ -123,8 +123,6 @@ public class SaoYiSao extends Activity implements SurfaceHolder.Callback,
         @SuppressWarnings("null")
         @Override
         public void handleMessage(Message msg) {
-            // ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
             switch (msg.what) {
                 case PARSE_BARCODE_SUC: // 解析图片成功
                     Intent mIntent = new Intent();
@@ -136,7 +134,6 @@ public class SaoYiSao extends Activity implements SurfaceHolder.Callback,
                     Toast.makeText(activityReference.get(), "解析图片失败",
                             Toast.LENGTH_SHORT).show();
                     break;
-
                 default:
                     break;
             }
@@ -266,12 +263,10 @@ public class SaoYiSao extends Activity implements SurfaceHolder.Callback,
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
-
         if (resultCode == RESULT_OK) {
             final ProgressDialog progressDialog;
             switch (requestCode) {
                 case REQUEST_CODE:
-
                     // 获取选中图片的路径
                     Cursor cursor = getContentResolver().query(intent.getData(),
                             null, null, null, null);
@@ -280,22 +275,17 @@ public class SaoYiSao extends Activity implements SurfaceHolder.Callback,
                                 .getColumnIndex(MediaStore.Images.Media.DATA));
                     }
                     cursor.close();
-
                     progressDialog = new ProgressDialog(this);
                     progressDialog.setMessage("正在扫描...");
                     progressDialog.setCancelable(false);
                     progressDialog.show();
-
                     new Thread(new Runnable() {
 
                         @Override
                         public void run() {
-
                             Bitmap img = BitmapUtils.getCompressedBitmap(photoPath);
-
                             BitmapDecoder decoder = new BitmapDecoder(SaoYiSao.this);
                             Result result = decoder.getRawResult(img);
-
                             if (result != null) {
                                 Message m = mHandler.obtainMessage();
                                 m.what = PARSE_BARCODE_SUC;
@@ -307,14 +297,10 @@ public class SaoYiSao extends Activity implements SurfaceHolder.Callback,
 
                                 mHandler.sendMessage(m);
                             }
-
                             progressDialog.dismiss();
-
                         }
                     }).start();
-
                     break;
-
             }
         }
 
@@ -361,6 +347,7 @@ public class SaoYiSao extends Activity implements SurfaceHolder.Callback,
         setResult(1001, mIntent);
         finish();
     }
+
     // /////////////////////////////////////////////////////////////////////////////////////////////////
     public void restartPreviewAfterDelay(long delayMS) {
         if (handler != null) {
@@ -460,7 +447,6 @@ public class SaoYiSao extends Activity implements SurfaceHolder.Callback,
                 Intent wrapperIntent = Intent.createChooser(innerIntent, "选择二维码图片");
                 this.startActivityForResult(wrapperIntent, REQUEST_CODE);
                 break;
-
             case R.id.capture_flashlight:
                 if (isFlashlightOpen) {
                     cameraManager.setTorch(false); // 关闭闪光灯
@@ -473,8 +459,5 @@ public class SaoYiSao extends Activity implements SurfaceHolder.Callback,
             default:
                 break;
         }
-
     }
-
-
 }
