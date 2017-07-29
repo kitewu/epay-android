@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity
             Toast.makeText(MainActivity.this, "绑定成功", Toast.LENGTH_LONG).show();
             Intent mIntent = new Intent();
             mIntent.setClass(MainActivity.this, WebActivity.class);
-            mIntent.putExtra("url", Config.INTRA_COMMON_URL + "/epay/index.html");
+            mIntent.putExtra("url", "http://" + Config.INTRANETIP + ":80/epay/index.html");
             startActivity(mIntent);
             return;
         }
@@ -157,7 +157,6 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_shop_car) {//购物车
             Intent mIntent = new Intent();
             mIntent.setClass(MainActivity.this, WebActivity.class);
-           // Toast.makeText(MainActivity.this, "http://" + Config.INTRANETIP + ":80/epay/index.html", Toast.LENGTH_LONG).show();
             mIntent.putExtra("url", "http://" + Config.INTRANETIP + ":80/epay/index.html");
             startActivity(mIntent);
         } else if (id == R.id.nav_active) {//积分活动
